@@ -2,8 +2,30 @@
 
 Um sistema que identifica a idade da pessoa e nomeia se é criança, adolescente, adulto ou idoso. 
 
-'''
+e um desafio extra da propria plataforma.
 
+'''
+#ATIVIDADE PRINCIPAL
+
+idade_usuario = int(input('Nos informe a sua idade: '))
+
+if idade_usuario <= 10:
+
+    print('Você é uma criança!')
+
+elif idade_usuario >= 10:
+    print('Você é um adolescente! ')
+
+elif idade_usuario >= 20:
+    print('Você é um adulto! ')
+
+elif idade_usuario >= 60:
+    print('Você é um idoso! ')
+
+
+
+
+#DESAFIO EXTRA
 
 print('1. Adição')
 print('2. Subtração')
